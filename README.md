@@ -1,34 +1,126 @@
-# SafeSight AI 👁️🤖
+# 🦺 SafeSight AI
 
-An industrial safety monitor utilizing computer vision and real-time hand-gesture tracking to provide automated machine control and emergency-stop functionality.
+> AI-powered touchless industrial machine control using Computer Vision, Hand Gesture Recognition, and Deep Learning.
 
----
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-orange)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-## 🚀 Core Features
-* **Real-Time Hand Tracking:** Integrates high-fidelity tracking frameworks to identify worker positioning.
-* **Dynamic Machine Control:** Processes distinct hand gestures to issue instantaneous commands (e.g., Start, Stop, and Slow).
-* **Industrial Safety Overrides:** Designed to cut machine power immediately upon detecting emergency or hazardous posture cues.
+## 📖 Overview
 
----
+SafeSight AI is a Computer Vision and Deep Learning project designed to improve industrial workplace safety through touchless machine control.
 
-## 🛠️ System Architecture & Tech Stack
-* **Language:** Python
-* **Frameworks & Libraries:** OpenCV, MediaPipe, TensorFlow / Keras
-* **Interface & Processing:** Custom multi-threaded dashboard scripts (`main_dashboard.py`) for low-latency visual data streams.
+The system recognizes predefined hand gestures in real time using a webcam and translates them into machine commands such as **START**, **SLOW**, and **STOP**. This prototype demonstrates how AI can reduce the need for physical interaction with machinery, especially during emergency situations.
 
 ---
 
-## 📁 File Structure
-* `main.py`: The core application coordinator initializing video capture and model inference loops.
-* `main_dashboard.py`: Handles the user interface layout, camera preview windows, and status logs.
-* `data_collection.py`: Custom pipeline script for capturing image frames and gathering dataset arrays.
-* `requirements.txt`: Lists all package dependencies needed to deploy the project locally.
+## ✨ Features
+
+- 🤖 Real-time hand gesture recognition
+- 🎥 Webcam-based gesture detection
+- 🧠 Custom TensorFlow/Keras classification model
+- ✋ Touchless machine control
+- ⚡ Live industrial dashboard
+- 🏭 Designed for industrial automation concepts
 
 ---
 
-## ⚙️ Installation & Usage
+## 🎯 Supported Gestures
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/taibaabid/SafeSight-AI.git](https://github.com/taibaabid/SafeSight-AI.git)
-   cd SafeSight-AI
+| Gesture | Action |
+|---------|--------|
+| 👍 START | Starts the machine |
+| 🟡 SLOW | Reduces machine speed |
+| ✋ STOP | Stops the machine immediately |
+| ⚪ IDLE | No recognized gesture |
+
+---
+
+## 🏭 Real-World Implementation
+
+In an industrial environment, cameras installed near machinery could detect workers' hand gestures and send the recognized commands to industrial controllers such as:
+
+- PLCs
+- Arduino
+- Raspberry Pi
+- Industrial IoT Controllers
+
+This enables touchless machine operation from a safer distance and can improve response time during emergencies.
+
+---
+
+## 💻 Tech Stack
+
+- Python
+- OpenCV
+- MediaPipe
+- TensorFlow
+- Keras
+- CVZone
+- NumPy
+
+---
+
+## 📂 Project Structure
+
+```
+SafeSight-AI
+│
+├── Model/
+│   ├── keras_model.h5
+│   └── labels.txt
+│
+├── data_collection.py
+├── main_dashboard.py
+├── hand_landmarker.task
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/duaaanadeem/SafeSight-AI.git
+```
+
+Navigate into the project
+
+```bash
+cd SafeSight-AI
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the project
+
+```bash
+python main_dashboard.py
+```
+
+---
+
+## 🎥 Demo
+
+Watch the project demonstration on LinkedIn:
+
+**https://www.linkedin.com/posts/duaa-khan-b3739431a_artificialintelligence-machinelearning-computervision-ugcPost-7476603371299213312-to5i/?**
+
+---
+
+---
+
+## 👩‍💻 Author
+
+**Duaa Khan**
+
+If you found this project useful, consider giving it a ⭐ on GitHub!
