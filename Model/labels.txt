@@ -1,0 +1,3 @@
+0 START
+1 STOP
+2 SLOW
