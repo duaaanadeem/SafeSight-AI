@@ -121,6 +121,6 @@ Watch the project demonstration on LinkedIn:
 
 ## 👩‍💻 Author
 
-**Duaa Khan**
+**Duaa Nadeem**
 
 If you found this project useful, consider giving it a ⭐ on GitHub!
