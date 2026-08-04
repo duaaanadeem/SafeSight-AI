@@ -113,7 +113,7 @@ python main_dashboard.py
 
 Watch the project demonstration on LinkedIn:
 
-**https://www.linkedin.com/posts/duaa-nadeem-b3739431a_artificialintelligence-machinelearning-computervision-ugcPost-7476603371299213312-to5i/?**
+**https://www.linkedin.com/posts/duaa-nadeem-b3739431a_artificialintelligence-machinelearning-computervision-ugcPost-7476603371299213312-YsRj/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFDbvlsB3Pm1RhOOnJZZLl7C6kRbxUPdtjE**
 
 ---
 
